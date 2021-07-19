@@ -1,8 +1,8 @@
 <template>
 
 <section class="profile-section">
-<img class="profleft" src="../assets/img/profleft.svg"/>
-<img class="profright" src="../assets/img/profright.svg"/>
+<img class="profleft" src="../assets/img/profright.svg"/>
+<img class="profright" src="../assets/img/profleft.svg"/>
 <div class="profile-content">
 
 <div class="profile-top-row">
@@ -40,12 +40,16 @@
 
    <!-- E-mail -->
    <label class="sr-only" for="inline-form-input-name">E-mail</label>
+     
+  <div class="mail-lock">
       <b-form-input
         id="input-group-1"
         label="Email address:"
         label-for="input-1"
         description="We'll never share your email with anyone else.">
       </b-form-input>
+           <img class="mail1-icon" src="../assets/icons/lock.svg"/>     
+     </div>
        </div>
 
      <!-- Additional info  -->
@@ -74,8 +78,10 @@
       <h3>Zmiana hasła</h3>
      <!-- Password -->
      <label for="text-password">Obecne hasło</label>
+     <div class="input-eyepass">
      <b-form-input type="password" id="text-password" aria-describedby="password-help-block"></b-form-input>
-     
+     <img class="password1-icon" src="../assets/icons/eye.svg"/>     
+     </div>
      <!-- Password repeat -->
      <label for="text-password">Nowe hasło</label>
      <b-form-input type="password" id="text-password" aria-describedby="password-help-block"></b-form-input>

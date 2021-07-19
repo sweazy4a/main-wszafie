@@ -27,7 +27,9 @@
         <b-nav-item href="#">Blog</b-nav-item>
         <b-nav-item href="#">O nas</b-nav-item>
         <b-nav-item href="#">Kontakt</b-nav-item>
-        <b-nav-item class="btn-register" href="#">Zaloguj/Zarejestruj</b-nav-item>
+        <b-button v-b-modal.modal-1 id="btn-register">Zaloguj/Zarejestruj</b-button>
+
+
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

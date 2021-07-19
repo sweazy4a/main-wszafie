@@ -3,7 +3,7 @@
 <section class="blog-section">
 
 
-<h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
+<h1 class="blog-title">Blog</h1>
 
 
 <div class="blog-row">
@@ -135,7 +135,7 @@
    <div class="social-banner">
 
      <div class="social-box">
-        <img class="social-mini" src="../assets/img/blog/wszafie.svg"/>
+        <img class="social-mini" src="../assets/img/blog/wszafie.png"/>
         <div class="social-mini-content">
           <h5>W szafie</h5>
           <p>12 377 polubienia</p>

@@ -7,7 +7,7 @@
   <div class="contact-left">
 
   <div class="contact-top-txt">
-    <h2>Masz pytanie?</h2>
+    <h1>Masz pytanie?</h1>
     <p>Napisz do nas </p>
     <p>lub wypełnij formularz!</p> 
   </div>

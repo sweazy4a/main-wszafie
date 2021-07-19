@@ -5,7 +5,9 @@
 
       <section class="flow-container">
         <div class="flow-row">
-         <Contact/>
+          <About/>
+
+      
           </div>
         </section>
        <FooterFlow/>
@@ -25,7 +27,11 @@ import Products from './components/Products.vue'
 
  import Popup from './components/Popup.vue' */
 /*import Contact from './components/Contact.vue' */
-import Contact from './components/Contact.vue'
+
+
+import About from './components/About.vue'
+
+
 import FooterFlow from './components/FooterFlow.vue'
 /* Bootstrap load */
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -48,7 +54,7 @@ export default {
   name: 'App',
   components: {
      HeaderFlow,
-     Contact,
+     About,
      FooterFlow,
  
     }

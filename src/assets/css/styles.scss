@@ -1,9 +1,11 @@
 @import "./variables.scss";
+a {
+    text-decoration: none;
+    font-family: $fontMain;
+}
 
-
-a{
-    text-decoration:none;
-    font-family:$fontMain;
+p {
+    font-family: $fontMain;
 }
 
 .flow-container {
@@ -16,85 +18,63 @@ a{
     .flow-row {
         margin: 90px auto 0 auto;
         width: 100%;
-        max-width: 1620px;
+        max-width: 1550px;
     }
 }
-
 
 
 /* Media container */
 
 @media only screen and (max-width: 1650px) {
-
-  /*   
+    /*   
 .flow-container{
     width:100%;
     padding-left:100px;
     padding-right:100px;
 }
 */
-
-.sr-only{
-   margin-bottom:20px!important;
-    display:block!important;
+    .sr-only {
+        margin-bottom: 20px!important;
+        display: block!important;
+    }
+    #hero .slick-slider .hero-content {
+        max-width: 45%;
+    }
 }
-
-
-#hero .slick-slider .hero-content{
-    max-width:45%;
-}
-
-
-}
-
 
 @media only screen and (max-width: 1450px) {
-
- .right-side{
-    width:55%;
-}
-
-}
-
-
-@media only screen and (max-width: 1360px) {
-    .right-side{
-        width:70%;
-    }
-
-    .mid-side{
-        max-width:25%;
-        margin-right:0px;
+    .right-side {
+        width: 55%;
     }
 }
 
+@media only screen and (max-width: 1360px) {
+    .right-side {
+        width: 70%;
+    }
+    .mid-side {
+        max-width: 25%;
+        margin-right: 0px;
+    }
+}
 
 @media only screen and (max-width: 1360px) {
-  .prod-col {
-      width:32%!important;
-      max-width:32%!important;
-  }
-
-  .promo-row{
-      max-width:65%;
-  }
-
-  .footer-content{
-      max-width:65%;
-  }
-
+    .prod-col {
+        width: 32%!important;
+        max-width: 32%!important;
+    }
+    .promo-row {
+        max-width: 65%;
+    }
+    .footer-content {
+        max-width: 65%;
+    }
 }
 
-
-
-
-
-.row > * {
-
-        padding: 0px!important;
-
+.row>* {
+    padding: 0px!important;
 }
-  
+
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -109,73 +89,75 @@ body {
     padding: 0px;
     width: 100%;
     height: 100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
- #app .flow-container form input{
-    padding:10px 20px;
-    margin-bottom:20px!important;
-    display:flex;
-    border-radius:10px!important;
-    border:1.8px solid #BABABA!important;
+#app .flow-container form input {
+    padding: 10px 20px;
+    margin-bottom: 20px!important;
+    display: flex;
+    border-radius: 10px!important;
+    border: 2px solid #BABABA!important;
 }
-
 
 #app .flow-container form textarea {
-    border:1.8px solid #BABABA!important;
-
+    border: 2px solid #BABABA!important;
+    border-radius: 10px!important;
 }
 
-.pop-left .form-control{
-    padding:10px 20px;
-    margin-bottom:20px!important;
-    display:flex;
-    border-radius:10px!important;
-    border:1.8px solid #BABABA!important;
+.b-form-datepicker {
+    margin-bottom: 20px!important;
+    display: flex;
+    border-radius: 10px!important;
+    border: 2px solid #BABABA!important;
 }
 
-
-.pop-left #textarea{
-    border:1.8px solid #BABABA!important;
+.b-form-datepicker label {
+    padding: 10px 30px;
 }
 
-
-.sr-only{
-    padding-bottom:5px!important;
+.pop-left .form-control {
+    padding: 10px 20px;
+    margin-bottom: 20px!important;
+    display: flex;
+    border-radius: 10px!important;
+    border: 2px solid #BABABA!important;
 }
 
+.sr-only {
+    padding-bottom: 5px!important;
+}
 
-#app .flow-container form textarea{
-    height:160px!important;
+#app .flow-container form textarea {
+    height: 160px!important;
     overflow: hidden!important;
 }
 
-#app form  label {
-    color:#5A5A5A;
+#app form label {
+    color: #5A5A5A;
 }
+
 
 /* Checkboxes */
 
 
-  /* Hide the browser's default checkbox */
+/* Hide the browser's default checkbox */
 
 
-  /* Create a custom checkbox */
+/* Create a custom checkbox */
 
 
 /* Focus Hover Active Disabled*/
 
 
 /* Focus */
-.custom-control-input{
-    background-color:green!important
-    }
 
+.custom-control-input {
+    background-color: green!important
+}
 
 
 /* Active */
-
-
 
 
 /* Disabled */
