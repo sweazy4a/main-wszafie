@@ -5,8 +5,8 @@
 
       <section class="flow-container">
         <div class="flow-row">
-          <About/>
-
+          
+         <Megamenu/>
       
           </div>
         </section>
@@ -21,6 +21,7 @@
 <script>
 import Vue from 'vue'
 import HeaderFlow from './components/HeaderFlow.vue'
+
 /*
 import Hero from './components/Hero.vue'
 import Products from './components/Products.vue'
@@ -29,9 +30,8 @@ import Products from './components/Products.vue'
 /*import Contact from './components/Contact.vue' */
 
 
-import About from './components/About.vue'
 
-
+import Megamenu from './components/Megamenu.vue'
 import FooterFlow from './components/FooterFlow.vue'
 /* Bootstrap load */
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -54,7 +54,7 @@ export default {
   name: 'App',
   components: {
      HeaderFlow,
-     About,
+     Megamenu,
      FooterFlow,
  
     }

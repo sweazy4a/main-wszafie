@@ -151,7 +151,6 @@
       </div>
 -->
 
-<img class="elementz-v" src="../assets/img/elementz.svg"/>
 
 <div class="after-products">
    <b-button class="btn-more">Zobacz więcej produktów</b-button>

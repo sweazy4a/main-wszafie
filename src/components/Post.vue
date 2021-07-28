@@ -6,7 +6,7 @@
  <div class="blog-row">
     
 
-    <div class="blog-left">
+    <div class="blog-left post-left" >
 
       <div class="description-top">   
         <p class="blog-cat">MODA</p>
@@ -17,7 +17,7 @@
   <!-- Content -->
 
      <div class="post-content post-intro description-content">
-      <h2>Sportowe klasyki, które warto mieć w swojej szafie</h2>
+      <h2>Sportowe klasyki, które warto mieć<br> w swojej szafie</h2>
       <p><strong>Każda z nas pragnie wyglądać elegancko, jednak nie wolno zapominać o tym, że czasami potrzebujemy więcej luzu. Długie sukienki, skomplikowane kroje bluzek, szerokie spódnice oraz szpilki są niewątpliwie piękne, ale nie ma nic wspanialszego niż ubrać się w wygodny dres i nie martwić się o swój makijaż. Nieprawdaż? Otóż skoro o tym mowa, dziś przedstawimy sportowe klasyki, które powinny znaleźć się w garderobie każdej dziewczyny, by uratować w nieoczekiwanej sytuacji. A więc lecimy!</strong></p>
         <img src="../assets/img/post/postimg1.png"/>
 
@@ -32,8 +32,8 @@
      </div>
 
    <div class="post-content description-content">
-      <h3>Sportowy top</h3>
-      <p>Każda z nas pragnie wyglądać elegancko, jednak nie wolno zapominać o tym, że czasami potrzebujemy więcej luzu. Długie sukienki, skomplikowane kroje bluzek, szerokie spódnice oraz szpilki są niewątpliwie piękne, ale nie ma nic wspanialszego niż ubrać się w wygodny dres i nie martwić się o swój makijaż. Nieprawdaż? Otóż skoro o tym mowa, dziś przedstawimy sportowe klasyki, które powinny znaleźć się w garderobie każdej dziewczyny, by uratować w nieoczekiwanej sytuacji. A więc lecimy!</p>
+      <h3>Klasyczne leginsy</h3>
+      <p>Leginsy to klasyk, który powinien znaleźć się w garderobie każdej kobiety. Jest to uniwersalne ubranie, które nie skuwa ruchów i nadaje się niemalże na każdą okazję (oczywiście oprócz oficjalnych przyjęć i pracy). Poza tym są one bardzo wygodne i również sprawdzą się podczas ćwiczeń sportowych.</p>
     
     
       <div class="post-image-row">
@@ -83,109 +83,18 @@
 
      <!-- Share social -->
      <div class="share-box">
-      <p>Podobało Ci się? Podziel się artykułem</p>
-         <a href="#fb"><img src=""/></a>
-         <a href="#fb"><img src=""/></a>
-         <a href="#fb"><img src=""/></a>
+      <p><strong>Podobało Ci się? Podziel się artykułem</strong></p>
+        
+        <div class="share-row">
+         <a href="#fb"><img src="../assets/icons/face.svg"/></a>
+         <a href="#fb"><img src="../assets/icons/twitter.svg"/></a>
+         <a href="#fb"><img src="../assets/icons/linked.svg"/></a>
+ </div>
+ 
      </div>
 
   <!-- Similar posts -->
 
-     <div class="similar-content">
-      <strong> Zobacz także </strong>
-       <div class="similar-row">
-           <div class="post-similar">
-          
-          
-            <div class="blog-banner">
-                 <img class="social-mini" src="../assets/img/post/post1.png"/>
-
-             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
-            </div>
-       
-   
-            <div class="blog-banner">
-                   <img class="social-mini" src="../assets/img/post/post1.png"/>
-
-             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
-            </div>
-       
-
-          
-            <div class="blog-banner">
-            <img class="social-mini" src="../assets/img/post/post1.png"/>
-
-             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
-            </div>
-       
-       
-        </div>
-
-     
-      </div>
-  
-
-  <!-- Comment -->
-
-    <div class="comment">
-  
-    <p class="comment-title">Daj nam znać, co myślisz</p>
-
-      <b-form-textarea
-      id="textarea"
-      v-model="text"
-      placeholder="Enter something..."
-      rows="3"
-      max-rows="6"
-      ></b-form-textarea>
-
-     <b-button id="btn-comment" variant="primary">Dodaj komentarz</b-button>
-
-      </div>
-
-
-      <div class="comment-message">
-            
-
-            <!-- Comment #1 -->
-
-            <div class="single-comment">
-               <b-avatar src="https://placekitten.com/300/300" size="6rem"></b-avatar>
-
-
-              <div class="comment-content">
-               <div class="comment-top">
-                <strong>Anna Kowalska</strong>
-                <span>28.07.21&nbsp;&nbsp;18:23</span>
-                   </div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
-          
-                </div>
-
-            </div>
-            
-         <!-- Comment #2 -->
-
-            <div class="single-comment">
-               <b-avatar src="https://placekitten.com/300/300" size="6rem"></b-avatar>
-
-
-              <div class="comment-content">
-               <div class="comment-top">
-                <strong>Anna Kowalska</strong>
-                <span>28.07.21&nbsp;&nbsp;18:23</span>
-                   </div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
-          
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-     </div>
 
 </div>
 
@@ -247,6 +156,104 @@
 
 
 
+
+     <div class="similar-content post-left">
+      <strong> Zobacz także </strong>
+       <div class="similar-row">
+           <div class="post-similar">
+          
+          
+            <div class="blog-banner">
+                 <img class="social-mini" src="../assets/img/post/post1.png"/>
+
+             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
+            </div>
+       
+   
+            <div class="blog-banner">
+                   <img class="social-mini" src="../assets/img/post/post1.png"/>
+
+             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
+            </div>
+       
+
+          
+            <div class="blog-banner">
+            <img class="social-mini" src="../assets/img/post/post1.png"/>
+
+             <h4>Sportowe klasyki, które warto mieć w swojej szafie</h4>
+            </div>
+       
+       
+        </div>
+
+     
+      </div>
+  
+
+  <!-- Comment -->
+<div class="blog-left post-left-second">
+    <div class="comment ">
+  
+    <p class="comment-title">Daj nam znać, co myślisz</p>
+
+      <b-form-textarea
+      id="textarea"
+      v-model="text"
+      placeholder="Enter something..."
+      rows="3"
+      max-rows="6"
+      ></b-form-textarea>
+
+     <b-button id="btn-comment" variant="primary">Dodaj komentarz</b-button>
+
+      </div>
+
+
+      <div class="comment-message">
+            
+
+            <!-- Comment #1 -->
+
+            <div class="single-comment">
+               <b-avatar src="https://placekitten.com/300/300" size="6rem"></b-avatar>
+
+
+              <div class="comment-content">
+               <div class="comment-top">
+                <strong>Anna Kowalska</strong>
+                <span>28.07.21&nbsp;&nbsp;18:23</span>
+                   </div>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+          
+                </div>
+
+            </div>
+            
+         <!-- Comment #2 -->
+
+            <div class="single-comment">
+               <b-avatar src="https://placekitten.com/300/300" size="6rem"></b-avatar>
+
+
+              <div class="comment-content">
+               <div class="comment-top">
+                <strong>Anna Kowalska</strong>
+                <span>28.07.21&nbsp;&nbsp;18:23</span>
+                   </div>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+          
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+     </div>
+
+</div>
 
 </section>
 

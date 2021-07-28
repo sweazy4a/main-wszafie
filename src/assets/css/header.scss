@@ -10,7 +10,7 @@ header {
 .navbar {
     padding-left: 60px;
     padding-right: 60px;
-    height: 90px;
+    height: 75px;
 }
 
 .left-side {
@@ -19,8 +19,9 @@ header {
 }
 
 .mid-side {
-    width: 35%;
+    width: 29%;
     @include the-end;
+    margin-right: 150px;
 }
 
 .navbar {
@@ -76,10 +77,6 @@ header {
     border: none;
 }
 
-.mid-side {
-    margin-right: 150px;
-}
-
 .mid-side .form-inline input {
     height: 25px;
     border: 0px solid transparent!important;
@@ -114,19 +111,13 @@ header {
     margin-right: 0px!important;
 }
 
-#navigation #btn-register a {
-    background: $buttonBG!important;
-    color: $buttorColor!important;
-    border-radius: 10px;
-    padding: 6px 18px;
-}
-
 #navigation #btn-register {
     background: $buttonBG!important;
     color: $buttorColor!important;
     border-radius: 10px;
-    padding: 6px 18px;
+    padding: 8px 18px!important;
     border: none;
+    max-height: 40px;
 }
 
 .logo img {

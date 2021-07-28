@@ -1,5 +1,9 @@
 <template>
+
+
 <footer>
+  <img class="elementz-v" src="../assets/img/elementz.svg"/>
+
   <section class="footer-container">
   <div class="promo-line">
       <div class="promo-row">
