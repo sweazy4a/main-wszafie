@@ -12,7 +12,7 @@
   
       <div class="button-row">
          <b-button class="btn-login btn-loginfb"><div class="btn-content"><img src="../assets/icons/fblogin.svg"/><span>Zarejestruj się przez Facebook</span></div></b-button>
-         <b-button class="btn-login btn-loginfb"><div class="btn-content"><img src="../assets/icons/glogin.svg"/><span>Zarejestruj się przez Google</span></div></b-button>
+         <b-button class="btn-login btn-logingoogle"><div class="btn-content"><img src="../assets/icons/glogin.svg"/><span>Zarejestruj się przez Google</span></div></b-button>
       </div>
 
      <div class="alternative"><span>lub</span></div>
@@ -21,7 +21,7 @@
  
   <b-form-input
        id="inline-form-input-name"
-       class="mb-2 mr-sm-2 mb-sm-0"
+       class="flow-input"
        placeholder="Jane Doe"
     > </b-form-input>
 
@@ -30,20 +30,20 @@
        <b-form inline>
        <b-form-input
        id="inline-form-input-name popinput"
-       class="mb-2 mr-sm-2 mb-sm-0"
+      class="flow-input"
        placeholder="E-mail">
        </b-form-input>
  
       <b-form @submit.stop.prevent>
-       <b-form-input type="password" placeholder="Hasło" id="text-password popinput" aria-describedby="password-help-block"   ></b-form-input>
-       
+       <b-form-input type="password" placeholder="Hasło" class="flow-input" aria-describedby="password-help-block"   ></b-form-input>
+      
      </b-form>
    
 
  <!--   <b-form-checkbox class="mb-2 mr-sm-2 mb-sm-0">Remember me</b-form-checkbox> -->
 
   
-      <b-button id="btn-reglogin-action" variant="primary">Zaloguj się</b-button>
+      <button class="btn-primary">Zaloguj się</button>
      </b-form>
    </div>
 

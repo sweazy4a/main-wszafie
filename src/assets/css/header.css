@@ -1,0 +1,382 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+header {
+  width: 100%;
+  z-index: 99;
+  position: fixed;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.navbar {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 75px;
+}
+
+.left-side {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mid-side {
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 150px;
+}
+
+.navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  width: 70%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right-side {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 20px;
+}
+
+#navigation .navbar-dark .navbar-nav .nav-link {
+  color: #333132;
+  font-family: "Calibri";
+  font-size: 17px;
+  font-weight: 500;
+  z-index:100;
+}
+
+.mid-side .form-inline {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.socials {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.socials a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials a img {
+  height: auto;
+  width: 20px;
+}
+
+#search-btn {
+  background: transparent;
+  border: none;
+}
+
+.mid-side .form-inline input {
+  height: 25px;
+  border: 0px solid transparent !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.mid-side .form-inline input::focus {
+  outline: none !important;
+  border: 0px solid transparent !important;
+}
+
+.mid-side form {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5D9ADD !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#navigation .bg-info {
+  background: #ffff !important;
+}
+
+#app {
+  margin-top: 0px !important;
+}
+
+#navigation .navbar-dark .navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+#navigation .navbar-dark .navbar-nav .btn-register {
+  margin-right: 0px !important;
+}
+
+#navigation #btn-register {
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3)) !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+  color: #ffff !important;
+  border-radius: 10px;
+  padding: 8px 18px !important;
+  border: none;
+  max-height: 40px;
+}
+
+.logo img {
+  height: 28px;
+  width: auto;
+}
+
+.btn-logged-in a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-options {
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-options::after {
+  content: '\25BC';
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  margin-bottom: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #5A5A5A;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=header.css.map */

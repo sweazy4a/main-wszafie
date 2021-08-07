@@ -1,0 +1,514 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+.product-section {
+  padding-top: 50px;
+  padding-bottom: 180px;
+}
+
+.prod-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 24% !important;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  position: relative;
+  padding: 0px !important;
+}
+
+.prod-col img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 460px;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 15px;
+  border: 2px solid #E2E2E2;
+  position: relative;
+}
+
+.product-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.prod-col-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 49% !important;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+}
+
+.prod-col-big img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 460px;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 15px;
+  border: 2px solid #E2E2E2;
+  border-radius: 0px !important;
+  border: 0px solid transparent !important;
+  width: 100% !important;
+}
+
+.prod-desc {
+  padding-top: 15px;
+}
+
+.prod-price {
+  font-family: "Calibri";
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  font-size: 20px;
+}
+
+.prod-name {
+  font-family: "Calibri";
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  font-size: 18px;
+}
+
+.prod-cat {
+  color: #808080;
+  font-size: 18px;
+}
+
+.prod-col-big .prod-title {
+  left: 50px;
+  position: absolute;
+  bottom: 110px;
+  color: #ffff;
+  font-weight: bold;
+  max-width: 60%;
+  text-shadow: -1px 0px 7px rgba(24, 114, 234, 0.77);
+  font-size: 32px;
+}
+
+.prod-col-big .prod-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.prod-col-big div {
+  position: relative;
+  overflow: hidden;
+}
+
+.prod-col-big .slick-dots {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  bottom: 30px;
+  left: 0px;
+}
+
+.prod-col-big .slick-dots li button {
+  width: 28px;
+  height: 28px !important;
+  background: #ADCCEF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px !important;
+  padding-top: 15px;
+}
+
+.prod-col-big .slick-dots li button:before {
+  font-size: 25px;
+  position: relative !important;
+}
+
+.slick-dots li button:before {
+  color: #F0F4FA !important;
+  opacity: 10 !important;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+#app .slick-active button {
+  background: #5A99E0 !important;
+}
+
+#app .prod-col-big .btn-more {
+  background: transparent !important;
+  margin-top: 0px !important;
+  width: 320px;
+}
+
+#app .slick-active button:before {
+  color: #5A99E0 !important;
+}
+
+.btn-more {
+  margin-top: 15px;
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #3176C4 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  color: #3176C4 !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+  margin-right: 5px;
+}
+
+.prod-tag {
+  text-transform: uppercase;
+  font-family: "Calibri";
+  color: #5A99E0 !important;
+  font-size: 15px;
+  border: 1px solid #5A99E0 !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#f7ffff), color-stop(#e9ffff), color-stop(#e4fff5), to(#f5ffde));
+  background-image: linear-gradient(to right, #ffffff, #f7ffff, #e9ffff, #e4fff5, #f5ffde);
+  border-radius: 4px;
+  padding: 5px 15px;
+  z-index: 9;
+  position: absolute;
+  left: 15px;
+  font-weight: 500 !important;
+  top: 15px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+  height: 30px;
+  font-weight: 600 !important;
+}
+
+.prod-like {
+  /*   border-radius:50%!important;
+    background:#ffff!important;
+    padding:8px!important;
+    border:none!important;
+    width: 50px!important;
+    height:50px!important;
+
+    -webkit-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+    box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+
+*/
+  width: 80px;
+  z-index: 9;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  background: none !important;
+  border: none !important;
+}
+
+.prod-like img {
+  width: 80px !important;
+  height: auto;
+}
+
+#app .prod-col img {
+  border: none !important;
+}
+
+.prod-unlike {
+  /*   border-radius:50%!important;
+    background:#ffff!important;
+    padding:8px!important;
+    border:none!important;
+    width: 50px!important;
+    height:50px!important;
+
+    -webkit-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+    box-shadow: 0px -2px 22px -4px rgba(0,0,0,0.35);
+
+*/
+  width: 80px;
+  z-index: 9;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  background: none !important;
+  border: none !important;
+}
+
+.prod-unlike img {
+  width: 80px;
+  height: auto;
+}
+
+.after-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+.after-products .btn-more {
+  margin: 0 auto !important;
+}
+
+.prod-col-big .slick-dots li {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  margin-right: 13px !important;
+}
+
+#app .prod-col-big h3 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#app .prod-col-big h3 {
+  max-width: 65%;
+  bottom: 85px;
+}
+
+.prod-desc .prod-price {
+  line-height: 23px;
+}
+/*# sourceMappingURL=products.css.map */

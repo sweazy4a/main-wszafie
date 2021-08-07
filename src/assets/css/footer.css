@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+/* Promo blue line */
+footer {
+  position: relative;
+}
+
+.promo-line {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3));
+  background-image: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3);
+  padding: 10px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+.promo-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 55%;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.promo-line a {
+  color: #ffff;
+  font-family: 'Calibri';
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo-line a img {
+  padding-right: 10px;
+}
+
+/* Footer bottom content */
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 55%;
+  margin: 0 auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.foot-left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foot-mid {
+  text-align: left;
+  width: 40%;
+  padding-left: 0px;
+}
+
+.foot-right {
+  text-align: left;
+  padding: 0px;
+  width: 20%;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer h5 {
+  font-family: "Calibri";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .socials {
+  width: auto;
+}
+
+.footer-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.foot-mid a {
+  color: #333132;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+footer a:hover {
+  color: #ffff;
+}
+
+.copyright {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright p {
+  font-family: "Calibri";
+  margin-bottom: 0px !important;
+}
+
+.copy-right a {
+  color: #333132;
+  font-family: "Calibri";
+}
+
+.copy-right {
+  width: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container {
+  background: #F0F4FA;
+}
+
+.elementz-v {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  bottom: 200px;
+}
+/*# sourceMappingURL=footer.css.map */

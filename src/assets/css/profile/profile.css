@@ -1,0 +1,494 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+.profleft {
+  position: absolute;
+  left: 0px;
+  top: -70px;
+  margin-left: -100px;
+}
+
+.profright {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.profile-section {
+  padding-top: 90px;
+  padding-bottom: 200px;
+  overflow: hidden;
+}
+
+.profile-content {
+  z-index: 9;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #ffff;
+  max-width: 95%;
+  -webkit-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+  box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1.5px solid #E2E2E2;
+}
+
+.edit-avatar {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  background: none !important;
+  color: #333132 !important;
+  border: none !important;
+}
+
+.avatar-left .mb-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.profile-top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.avatar-left {
+  padding-top: 40px;
+}
+
+
+.avatar-left .btn-edit{
+  background:#ffff!important;
+  border-radius:50px!!important;
+  padding:20px;
+}
+
+.edit-avatar {
+  margin-left: -50px;
+  z-index: 9999;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Calibri";
+}
+
+.editimg {
+  margin-right: 5px;
+}
+
+#btn-remove {
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #FC3830 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  color: #FC3830 !important;
+  max-height: 40px;
+}
+
+.profile-data-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.prof-col {
+  width: 28.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.prof-col .txtarea {
+  margin-top: 0px;
+  color: #5A5A5A;
+}
+
+#btn-big {
+  margin-top: 20px;
+  width: 100% !important;
+  max-width: 100% !important;
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3)) !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+}
+
+#btn-change {
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #3176C4 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  color: #3176C4 !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  display: table;
+}
+
+.prof-col h3 {
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: #333132;
+}
+
+.password1-icon {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  width: 30px;
+  height: auto;
+  background: white;
+}
+
+.mail1-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 20px;
+  height: auto;
+  background: white;
+}
+
+.input-eyepass {
+  position: relative;
+}
+
+.mail-lock {
+  position: relative;
+}
+
+.b-form-datepicker button {
+  display: none !important;
+}
+
+/* Profilebar */
+.profile-bar-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.profile-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 50px;
+  -webkit-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+  box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+  border-radius: 10px;
+  z-index: 999;
+  position: relative;
+  background: #ffff;
+}
+
+.bar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+}
+
+.bar-right p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  z-index: 9999;
+}
+
+.bar-right p::before {
+  content: " „ ";
+  font-family: "Calibri";
+  font-size: 116px;
+  position: absolute;
+  bottom: 100px;
+  left: -25px;
+  z-index: -5 !important;
+  font-weight: bold;
+  color: #F0F4FA;
+}
+
+.bar-left .prof-info {
+  padding-left: 20px;
+}
+
+.bar-left .info-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar-left .info-line:nth-child(2) {
+  padding-left: 30px;
+}
+
+.bar-left .info-line:nth-child(3) {
+  padding-left: 30px;
+}
+
+.bar-left .info-line img {
+  padding-right: 10px;
+}
+
+.bar-left .prof-info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bar-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+}
+
+.edit-btn {
+  float: right;
+  color: #333132;
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 99999;
+}
+
+.edit-btn img {
+  padding-right: 5px;
+}
+/*# sourceMappingURL=profile.css.map */

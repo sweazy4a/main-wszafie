@@ -1,5 +1,3 @@
-
-
 <template>
 
 <header id="navigation">
@@ -27,13 +25,13 @@
         <b-nav-item href="#">Blog</b-nav-item>
         <b-nav-item href="#">O nas</b-nav-item>
         <b-nav-item href="#">Kontakt</b-nav-item>
-        <button v-b-modal.modal-1 class="btn-primary btn-primary-disabled">Zaloguj/Zarejestruj</button>
-
-
+        <b-nav-item class="btn-logged-in" href="#">
+        <b-avatar variant="info" src="https://placekitten.com/300/300"> </b-avatar>
+           <b-form-select-option class="profile-options" :value="null">Karolina</b-form-select-option>
+         </b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
-   
       <div class="socials">
        <a class="social-ic" href="#facebook" target="_blank"><img alt="facebook" src="../assets/icons/face.svg"/></a>
        <a class="social-ic" href="#instagram" target="_blank"><img alt="instagram" src="../assets/icons/insta.svg"/></a>
@@ -53,9 +51,10 @@
 <script>
 require('@/assets/css/header.scss') 
 export default {
-  name: 'HeaderFlow',
-  
+  name: 'HeadeLogged',  
+
 }
+
 
 
 </script>

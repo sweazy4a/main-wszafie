@@ -9,7 +9,6 @@
 <div class="blog-row">
 
 <!-- Left column -->
-
   <div class="blog-left">
    <div class="blog-element">
   <div class="feature-img">
@@ -193,8 +192,8 @@
 
 <div class="blog-bottom">
 
-<b-button class="btn-more">Zobacz więcej artykułów</b-button>
-
+<b-button class="btn-second">Zobacz więcej artykułów</b-button>
+  
 </div>
 
 

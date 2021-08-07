@@ -82,6 +82,7 @@
     padding-top: 40px;
     padding-bottom: 70px;
     flex-wrap: wrap;
+    align-items:flex-start;
 }
 
 .prof-col {
@@ -121,14 +122,25 @@
     background: white;
 }
 
-.mail1-icon {
+.input-eyepass .btn-view {
     position: absolute;
     right: 10px;
-    top: 8px;
+    top: 14px;
     width: 20px;
     height: auto;
     background: white;
 }
+
+
+.mail-lock .btn-lock{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 15px;
+    height: auto;
+    background: white; 
+}
+
 
 .input-eyepass {
     position: relative;
@@ -230,4 +242,8 @@
 
 .edit-btn img {
     padding-right: 5px;
+}
+
+.profile-data-row .btn-primary{
+   margin-top:20px;
 }

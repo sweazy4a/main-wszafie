@@ -8,7 +8,7 @@
         <h1>A Twoja garderoba </br>jest gotowa na lato?</h1>
         <p>Zainspiruj się i stwórz wspaniałą stylizację razem <br>z Wszafie!</p>
         <p>Najlepsze wzory i kolory ubrań na lato <br> znajdziesz tylko w naszym poradniku!</p>
-        <b-button class="hero-btn">Pobierz poradnik</b-button>
+        <button class="btn-primary">Pobierz poradnik</button>
         </div>
       </div>
       <div>2</div>

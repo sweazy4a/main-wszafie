@@ -1,7 +1,18 @@
 @import "./variables.scss";
+@import './button.scss';
+@import './alert.scss';
+@import './input.scss';
+
+
+
 a {
-    text-decoration: none;
+    text-decoration: none!important;
     font-family: $fontMain;
+}
+
+h4{
+    text-decoration: none!important;
+
 }
 
 p {
@@ -123,7 +134,7 @@ body {
 .b-form-datepicker label {
     padding: 10px 30px;
 }
-
+/*
 .pop-left .form-control {
     padding: 10px 20px;
     margin-bottom: 20px!important;
@@ -131,7 +142,7 @@ body {
     border-radius: 10px!important;
     border: 2px solid #BABABA!important;
 }
-
+*/
 .sr-only {
     padding-bottom: 5px!important;
 }
@@ -143,6 +154,7 @@ body {
 
 #app form label {
     color: #5A5A5A;
+    margin-bottom:4px!important;
 }
 
 

@@ -4,20 +4,21 @@
  <div class="row product-row">
   <!-- First col -->   
   <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-like"><img src="../assets/icons/heart.svg"/></b-button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+   <button class="btn-liked"></button>    
+  <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
       <p class="prod-cat">Bryony wada</p>
       </div>
       </div>
+
+  
       <!-- First col -->   
     <div class="prod-col">
-       <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-like"><img src="../assets/icons/heart.svg"/></b-button>
-     <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-2.png"/>
+       <b-button class="btn-bestseller">Bestseller</b-button>
+       <button class="btn-liked"></button>     <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-2.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -34,7 +35,7 @@
 
        <div class="prod-desc">
  
-        <b-button class="btn-more">Zobacz więcej porad</b-button>
+        <b-button class="btn-second">Zobacz więcej porad</b-button>
         </div>
       </div>
      <div>
@@ -44,20 +45,30 @@
        <div class="prod-desc">
  
          <div class="circle"> </div>
-        <b-button class="btn-more">Zobacz więcej porad</b-button>
+         <button class="btn-second">Zobacz więcej porad</button>
         </div>
       </div>
-  
 
-  
     </VueSlickCarousel>
   </div>
 </div>
 
 
 <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-like"><img src="../assets/icons/heart.svg"/></b-button>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+      <button class="btn-liked"></button>      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="prod-desc">
+      <p class="prod-price">399 zl</p>  
+      <p class="prod-name">Adidas mega</p>
+      <p class="prod-cat">Bryony wada</p>
+      </div>
+      </div>
+
+
+
+      <div class="prod-col">
+     <b-button class="btn-bestseller">Bestseller</b-button>
+      <button class="btn-liked"></button> 
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -69,36 +80,20 @@
 
 
       <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-like"><img src="../assets/icons/heart.svg"/></b-button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+<button class="btn-liked"></button>      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
       <p class="prod-cat">Bryony wada</p>
       </div>
       </div>
-
-
-
-      <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-like"><img src="../assets/icons/heart.svg"/></b-button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
-      <div class="prod-desc">
-      <p class="prod-price">399 zl</p>  
-      <p class="prod-name">Adidas mega</p>
-      <p class="prod-cat">Bryony wada</p>
-      </div>
-      </div>
-
-
 
 
 
 <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-unlike"><img src="../assets/icons/unheart.svg"/></b-button>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+   <button class="btn-unliked"></button>
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -110,8 +105,8 @@
 
 
       <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-unlike"><img src="../assets/icons/unheart.svg"/></b-button>
+       <b-button class="btn-bestseller">Bestseller</b-button>
+     <button class="btn-unliked"></button>
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -120,11 +115,9 @@
       </div>
       </div>
 
-
-
       <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-unlike"><img src="../assets/icons/unheart.svg"/></b-button>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+   <button class="btn-unliked"></button>
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -133,10 +126,9 @@
       </div>
       </div>
 
-
       <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-unlike"><img src="../assets/icons/unheart.svg"/></b-button>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+   <button class="btn-unliked"></button>
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -147,8 +139,8 @@
 
       
       <div class="prod-col">
-     <b-button class="prod-tag">Bestseller</b-button>
-     <b-button class="prod-unlike"><img src="../assets/icons/unheart.svg"/></b-button>
+     <b-button class="btn-bestseller">Bestseller</b-button>
+   <button class="btn-unliked"></button>
       <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
@@ -171,7 +163,7 @@
 
 
 <div class="after-products">
-   <b-button class="btn-more">Zobacz więcej produktów</b-button>
+   <b-button class="btn-second">Zobacz więcej produktów</b-button>
 </div>
 
 

@@ -2,44 +2,27 @@
 
   <body id="app">
        <HeaderFlow/>
-
       <section class="flow-container">
         <div class="flow-row">
-          
-         <Megamenu/>
-      
+          <Elements/>
           </div>
         </section>
        <FooterFlow/>
-  
-  
   </body>
-
 </template>
 
 
 <script>
 import Vue from 'vue'
+
+import Elements from './components/Elements.vue'
 import HeaderFlow from './components/HeaderFlow.vue'
-
-/*
-import Hero from './components/Hero.vue'
-import Products from './components/Products.vue'
-
- import Popup from './components/Popup.vue' */
-/*import Contact from './components/Contact.vue' */
-
-
-
-import Megamenu from './components/Megamenu.vue'
 import FooterFlow from './components/FooterFlow.vue'
 /* Bootstrap load */
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-/* Popper load */
-/* import { createPopper } from '@popperjs/core'; */
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
@@ -48,15 +31,14 @@ Vue.use(IconsPlugin)
 
 
 
-
 require('@/assets/css/styles.scss') 
 export default {
   name: 'App',
   components: {
      HeaderFlow,
-     Megamenu,
      FooterFlow,
- 
+     Elements,
+     
     }
    
   }

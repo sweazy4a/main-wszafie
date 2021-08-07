@@ -1,9 +1,5 @@
 <template>
-
-
 <section class="popup-section">
-
- 
     <b-modal class="popup" id="modal-1" >
     <div class="popup-content">
      <div class="pop-left">
@@ -22,12 +18,12 @@
        <b-form inline>
        <b-form-input
        id="inline-form-input-name popinput"
-       class="mb-2 mr-sm-2 mb-sm-0"
+       class="flow-input"
        placeholder="E-mail">
        </b-form-input>
  
       <b-form @submit.stop.prevent>
-       <b-form-input type="password" placeholder="Hasło" id="text-password popinput" aria-describedby="password-help-block"   ></b-form-input>
+       <b-form-input type="password" placeholder="Hasło" class="flow-input" aria-describedby="password-help-block"   ></b-form-input>
        
      </b-form>
    
@@ -38,7 +34,7 @@
       <p>Zapomniałeś hasła? <a href="#reset">Zmień je tutaj</a></p>
       </div>
   
-      <b-button id="btn-reglogin-action" variant="primary">Zaloguj się</b-button>
+      <button class="btn-primary">Zaloguj się</button>
      </b-form>
    </div>
 
@@ -58,10 +54,10 @@
 </section>
 
 </template>
-
 <script>
   require('@/assets/css/forms/popup.scss') 
   export default {
     name: 'Popup',
   }
+
 </script> 

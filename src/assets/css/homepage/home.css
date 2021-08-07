@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+#hero .slick-slider .hero-content .hero-btn {
+  margin-top: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3));
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3);
+  padding: 0px 30px;
+  color: #ffff;
+  font-family: "Calibri";
+  border-radius: 10px;
+  font-size: 19px !important;
+  display: table;
+  margin-top: 20px;
+  border: none;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+}
+
+#hero .slick-dots {
+  display: none !important;
+}
+
+#hero .slick-slider img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#hero .slick-slider div {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+}
+
+#hero .slick-slider .hero-content {
+  position: absolute;
+  top: 25%;
+  max-width: 25%;
+  left: 150px;
+}
+
+#hero .slick-slider h1 {
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #333132;
+}
+
+#hero .slick-slider .hero-content p {
+  font-size: 18px;
+  color: #333132;
+  line-height: 25px;
+}
+
+#hero .slick-slider .slick-prev {
+  left: 50px;
+  position: absolute;
+  z-index: 9;
+}
+
+#hero .slick-slider .slick-prev:before {
+  content: " " !important;
+  color: #ffff !important;
+  left: 0px;
+  position: absolute;
+  z-index: 9;
+  background-image: url("https://i.ibb.co/y0RScX4/1919.png");
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+}
+
+#hero .slick-slider .slick-next:before {
+  background-image: url("https://i.ibb.co/x6XF7Tc/1918.png");
+  color: #ffff !important;
+  right: 50px;
+  position: absolute;
+  z-index: 99999;
+  top: 25%;
+  background-size: cover;
+  content: " ";
+  height: 50px;
+  width: 50px;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,48 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.flow-input {
+    padding: 10px 20px;
+    margin-bottom: 20px !important;
+    display: flex;
+    border-radius: 10px!important;
+    border: 2px solid #BABABA !important;
+    background:#ffff;
+    color:#333132;
+    max-height:40px!important;
+}
+
+
+.flow-input:hover{
+    background:#F7FAFF;
+}
+
+.flow-input:focus{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.36);
+}
+
+.flow-input-disabled{
+  opacity:0.5;  
+  box-shadow:none!important;
+}
+
+.flow-input-error{
+    border: 2px solid #BABABA !important;
+    position:relative;
+}
+
+.flow-input-error::after{
+    /*content: url('https://i.ibb.co/0Mbc0jp/Group-881.png');*/
+    content:"WWADAWDAWD";
+    position:absolute;
+    right:15px;
+}
+
+.flow-input-error-message {
+    color:#FF332B;
+}
+
+
+

@@ -21,7 +21,7 @@
         description="We'll never share your email with anyone else.">
       </b-form-input>
 
-     <b-button id="btn-reset" class="btn-reset" variant="primary">Zresetuj hasło</b-button>
+     <button class="btn-primary">Zresetuj hasło</button>
 </div>
 
 

@@ -75,6 +75,22 @@ header {
 #search-btn {
     background: transparent;
     border: none;
+    outline:none!important;
+    box-shadow:none!important;
+
+}
+
+#search-btn:focus{
+    border:none!important;
+    outline:none!important;
+    box-shadow:none!important;
+}
+
+
+#search-btn:active{
+    border:none!important;
+    outline:none!important;
+    box-shadow:none!important;
 }
 
 .mid-side .form-inline input {
@@ -123,4 +139,32 @@ header {
 .logo img {
     height: 28px;
     width: auto;
+}
+
+.btn-logged-in a{
+    display:flex;
+    align-items:center;
+
+    justify-content:space-between;
+}
+
+
+.profile-options{
+    padding-left:10px;
+    display:flex;
+    align-items:center;
+}
+
+.profile-options::after{
+    content: '\25BC';
+    transform:scale(0.8);
+    margin-bottom:-5px;
+    display:flex;
+    color:#5A5A5A;
+
+}
+
+.navbar-nav{
+    display:flex;
+    align-items:center;
 }

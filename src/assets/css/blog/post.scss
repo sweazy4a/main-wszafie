@@ -116,6 +116,7 @@
     padding-left: 30px;
     display: flex;
     flex-direction: column;
+    width:100%;
 }
 
 .comment-top strong {
@@ -169,4 +170,8 @@
 
 .post-content p {
     font-size: 18px;
+}
+
+#textarea{
+    margin-bottom:20px;
 }

@@ -16,18 +16,18 @@
                 <div class="prof-info-row">
                 <!-- Age -->    
                     <div class="info-line">
-                        <img src="../assets/icons/birthdate.svg"/>
+                       <button class="btn-birth"></button>
                         <span>30 lat</span>
                     </div>
                  <!-- Location -->
                      <div class="info-line">
-                        <img src="../assets/icons/location.svg"/>
+                        <button class="btn-gps"></button>
                            <span>Warszawa</span>
                     </div>
 
              <!-- Liked products -->
                      <div class="info-line">
-                        <img src="../assets/icons/like.svg"/>
+                       <button class="btn-wish"></button>
                          <span>Moja szafa (8)</span>
                     </div>
                 </div>

@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+a {
+  text-decoration: none;
+  font-family: "Calibri";
+}
+
+p {
+  font-family: "Calibri";
+}
+
+.flow-container {
+  padding: 0 10px;
+}
+
+.flow-container .flow-row {
+  margin: 90px auto 0 auto;
+  width: 100%;
+  max-width: 1550px;
+}
+
+/* Media container */
+@media only screen and (max-width: 1650px) {
+  /*   
+.flow-container{
+    width:100%;
+    padding-left:100px;
+    padding-right:100px;
+}
+*/
+  .sr-only {
+    margin-bottom: 20px !important;
+    display: block !important;
+  }
+  #hero .slick-slider .hero-content {
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .right-side {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .right-side {
+    width: 70%;
+  }
+  .mid-side {
+    max-width: 25%;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .prod-col {
+    width: 32% !important;
+    max-width: 32% !important;
+  }
+  .promo-row {
+    max-width: 65%;
+  }
+  .footer-content {
+    max-width: 65%;
+  }
+}
+
+
+/* .row > * {
+  padding: 0px !important;
+} */
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#app .flow-container form input {
+  padding: 10px 20px;
+  margin-bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #BABABA !important;
+}
+
+#modal-3 input {
+  padding: 10px 20px;
+  margin-bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #BABABA !important;
+}
+
+#app .flow-container form textarea {
+  border: 2px solid #BABABA !important;
+  border-radius: 10px !important;
+}
+
+.b-form-datepicker {
+  margin-bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #BABABA !important;
+}
+
+.b-form-datepicker label {
+  padding: 10px 30px;
+}
+/*
+.pop-left .form-control {
+  padding: 10px 20px;
+  margin-bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #BABABA !important;
+}
+*/
+.sr-only {
+  padding-bottom: 5px !important;
+}
+
+#app .flow-container form textarea {
+  height: 160px !important;
+  overflow: hidden !important;
+}
+
+#app form label {
+  color: #5A5A5A;
+}
+
+/* Checkboxes */
+/* Hide the browser's default checkbox */
+/* Create a custom checkbox */
+/* Focus Hover Active Disabled*/
+/* Focus */
+.custom-control-input {
+  background-color: green !important;
+}
+
+/* Active */
+/* Disabled */
+/*# sourceMappingURL=styles.css.map */

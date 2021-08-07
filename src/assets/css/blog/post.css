@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+.post-section {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.post-section .post-left {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.post-similar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-intro strong {
+  padding-top: 20px;
+  font-size: 22px;
+  display: block;
+  line-height: 30px;
+}
+
+.post-intro img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.post-image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.post-image-box {
+  width: 49%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 20px;
+}
+
+.post-image-box img {
+  width: 100%;
+}
+
+.post-imgage-line {
+  padding-top: 10px;
+}
+
+.post-image-line p {
+  padding-top: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.post-image-line a {
+  color: #3176C4;
+}
+
+.blog-banner {
+  padding-right: 30px;
+}
+
+.blog-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.comment {
+  padding-top: 50px;
+}
+
+.comment textarea {
+  overflow: auto !important;
+  height: 109px !important;
+}
+
+.comment-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.comment {
+  padding-bottom: 70px;
+}
+
+#btn-comment {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #3176C4 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  color: #3176C4 !important;
+  max-height: 40px;
+  display: flex !important;
+  max-widt: 220px !important;
+  color: #ffff !important;
+  border: none !important;
+  margin-top: 20px;
+  max-height: 50px !important;
+  height: 50px !important;
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3)) !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+}
+
+.single-comment {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.single-comment .comment-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.single-comment .comment-content {
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.comment-top strong {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment-top span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: #5A5A5A;
+}
+
+.similar-content {
+  padding-top: 50px;
+}
+
+.similar-row .blog-banner {
+  margin-top: 10px;
+}
+
+.post-left-second {
+  padding-right: 0px;
+}
+
+.share-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.share-row {
+  padding-left: 15px;
+}
+
+.share-box p {
+  margin: 0px !important;
+  padding-top: 10px;
+  padding-bottom: 0px !important;
+}
+
+.share-box strong {
+  font-size: 20px !important;
+}
+
+.share-row img {
+  width: 23px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.post-content p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=post.css.map */

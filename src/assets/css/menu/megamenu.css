@@ -1,0 +1,237 @@
+/* General items */
+.mega-menu-container {
+  padding: 0 100px;
+}
+
+.mega-menu-container li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.mega-menu-row {
+  margin: 90px auto 0 auto;
+  width: 100%;
+  max-width: 1350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mega-menu-row .col-left {
+  width: 230px;
+  border-right: 2px solid #E2E2E2;
+}
+
+.mega-menu-row .col-right {
+  width: calc(100% - 230px);
+  padding-left: 15px;
+}
+
+.col-right .mega-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 15px;
+}
+
+.menu-img {
+  position: relative;
+  color: #ffff;
+  padding-bottom: 20px;
+}
+
+.menu-img h3 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.menu-col .menu-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.first-col {
+  min-width: 400px;
+}
+
+.second-col {
+  min-width: 300px;
+}
+
+.third-col {
+  min-width: 300px;
+}
+
+.col-left ul {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 200px;
+}
+
+.col-left li {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-left li::after {
+  content: " ";
+  display: block;
+  float: right;
+  margin-top: .25em;
+  border-color: transparent;
+  border-top-color: #D00;
+  border-style: solid;
+  border-width: .5em .31em 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  border-width: .31em 0 .31em .5em;
+  border-top-color: transparent;
+  border-left-color: #5A5A5A;
+  margin-left: 10px;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.sub-item-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.plus-submenu {
+  position: absolute;
+  right: 0px;
+}
+
+.plus-submenu li {
+  color: #707070;
+}
+
+.sub-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5px;
+  cursor: pointer;
+  color: #707070;
+}
+
+.sub-item::after {
+  content: " ";
+  display: block;
+  float: right;
+  margin-top: .25em;
+  border-color: transparent;
+  border-top-color: #D00;
+  border-style: solid;
+  border-width: .5em .31em 0;
+  width: 0;
+  height: 0;
+  position: relative;
+  border-width: .31em 0 .31em .5em;
+  border-top-color: transparent;
+  border-left-color: #5A5A5A;
+  margin-left: 10px;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.menu-col {
+  padding-top: 25px;
+}
+
+.col-submenu {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sub-item:hover {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #3176C4;
+}
+
+.col-left li:hover {
+  color: #3176C4;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.sub-item {
+  width: 100%;
+}
+
+.sub-item {
+  width: 100%;
+}
+
+.plus-submenu {
+  display: none;
+  z-index: 2;
+  width: 50%;
+}
+
+/*
+.sub-item-row {
+  padding: 5px 0;
+  .plus-menu {
+      display: none;
+  }
+  &:hover {
+      .plus-submenu {
+          display: block;
+         
+      }
+  }
+}
+*/
+.sub-item-row {
+  padding: 5px 0px;
+}
+
+.sub-item-row .plus-submenu {
+  display: none;
+}
+
+.sub-item-row:hover .plus-submenu {
+  display: block;
+}
+/*# sourceMappingURL=megamenu.css.map */

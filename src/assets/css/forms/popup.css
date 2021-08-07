@@ -1,0 +1,582 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Light.woff") format("woff"), url("/assets/fonts/Calibri-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-LightItalic.woff") format("woff"), url("/assets/fonts/Calibri-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-BoldItalic.woff") format("woff"), url("/assets/fonts/Calibri-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Bold.woff") format("woff"), url("/assets/fonts/Calibri-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/Calibri-Italic.woff") format("woff"), url("/assets/fonts/Calibri-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url("/assets/fonts/fonts/Calibri.woff") format("woff"), url("/assets/fonts/Calibri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Main font size */
+#app h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#app h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+#app h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#app h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#app h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#app button {
+  font-family: "Calibri" !important;
+}
+
+/* COLORS */
+/* Buttons */
+/* Links */
+/* Text variables */
+/* Colors */
+/* Columns , layout */
+/* Image object */
+/* Products */
+/* Buttons */
+/* Product */
+.popup-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.modal-dialog {
+  width: 100%;
+  max-width: 58% !important;
+  top: 10%;
+}
+
+.pop-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+.close {
+  z-index: 9999;
+  position: absolute;
+  right: 0px;
+  margin-top: -50px;
+  margin-right: -50px;
+  color: #ffff;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  background: transparent !important;
+  border: none !important;
+  font-weight: 100 !important;
+  opacity: 10 !important;
+  font-size: 30px !important;
+}
+
+.modal-footer {
+  display: none !important;
+}
+
+.pop-left .modal-header {
+  position: absolute;
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.pop-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  background-image: url("https://i.ibb.co/68q0GpZ/Group-720.png");
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pop-right .txt-pop {
+  text-align: center;
+  color: #ffff;
+  font-family: "Calibri";
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pop-right .txt-pop h2 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.pop-right .txt-pop p {
+  font-size: 20px;
+  color: #ffff;
+  font-family: "Calibri";
+}
+
+.pop-left .button-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal-header {
+  position: absolute;
+}
+
+.modal-header .close {
+  z-index: 9999;
+}
+
+.alternative {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.alternative span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-family: "Calibri";
+  font-size: 22px;
+}
+
+.alternative span::before {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  width: 40%;
+  margin-right: 20px;
+  background-color: #EAEAEA;
+}
+
+#btn-reglogin-action {
+  width: 100% !important;
+  max-width: 100% !important;
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3)) !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+}
+
+.forgot-pass p {
+  text-align: right;
+  font-family: "Calibri";
+  font-size: 18px;
+}
+
+.forgot-pass a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hasprofile {
+  font-family: "Calibri";
+}
+
+.hasprofile {
+  font-size: 18px;
+}
+
+.hasprofile a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pop-left h2 {
+  font-weight: bold;
+}
+
+.alternative span::after {
+  margin-left: 20px;
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  width: 40%;
+  background-color: #EAEAEA;
+}
+
+.btn-login img {
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-login span {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin-left: 10px;
+}
+
+.btn-login {
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #3176C4 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  color: #3176C4 !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+  margin-top: 20px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  display: flex !important;
+  border: 1.5px solid #CBCBCB !important;
+  color: #333132 !important;
+}
+
+.modal {
+  background-color: rgba(36, 163, 211, 0.8) !important;
+  -webkit-box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
+  box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
+}
+
+#modal-2 .pop-right {
+  height: auto !important;
+}
+
+#modal-2 .custom-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+#modal-2 .pop-right {
+  background-image: url("https://i.ibb.co/6JhxVn2/Group-947.jpg");
+}
+
+#app .modal-header {
+  border: none !important;
+  background: white;
+}
+
+#modal-3 .popup-content {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#modal-3 h2 {
+  font-weight: bold;
+}
+
+#modal-3 .reset-top {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#modal-3 .reset-row {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 400px;
+}
+
+#btn-reset {
+  background: #ffff !important;
+  border-radius: 10px !important;
+  border: 2px solid #3176C4 !important;
+  padding: 10px 40px !important;
+  font-family: "Calibri" !important;
+  font-size: 19px !important;
+  max-height: 40px;
+  color: #3176C4 !important;
+  max-height: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-widt: 220px !important;
+  margin-top: 20px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  display: flex !important;
+  border: 1.5px solid #CBCBCB !important;
+  color: #333132 !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#5d9add), color-stop(#5e9fdf), color-stop(#5fa3e1), color-stop(#61a8e3), color-stop(#63ace5), color-stop(#64b0e7), color-stop(#65b5e8), color-stop(#67b9ea), color-stop(#69beec), color-stop(#6bc4ef), color-stop(#6ec9f1), to(#71cef3)) !important;
+  background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+  color: #ffff !important;
+}
+
+.reset-top p {
+  font-size: 20px;
+  font-family: "Calibri";
+}
+
+#modal-3 h2 {
+  font-size: 35px !important;
+}
+
+.reset-top p a {
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: "Calibri";
+}
+
+#modal-1 .btn-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#modal-2 .btn-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=popup.css.map */

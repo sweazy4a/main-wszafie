@@ -3,9 +3,7 @@
 <section class="contact-section">
 
 <div class="contact-row">
-
   <div class="contact-left">
-
   <div class="contact-top-txt">
     <h1>Masz pytanie?</h1>
     <p>Napisz do nas </p>
@@ -19,15 +17,14 @@
   <b-form inline>
     <label class="sr-only" for="inline-form-input-name">Name</label>
     <b-form-input
-      id="inline-form-input-name"
-      class="mb-2 mr-sm-2 mb-sm-0"
+       class="flow-input"
       placeholder="Jane Doe"
     ></b-form-input>
 
   <!-- Email -->
   <label class="sr-only" for="inline-form-input-name">E-mail</label>
      <b-form-input
-        id="input-group-1"
+        class="flow-input"
         label="Email address:"
         label-for="input-1"
         description="We'll never share your email with anyone else.">
@@ -36,8 +33,7 @@
   <!-- Phone -->
     <label class="sr-only" for="inline-form-input-name">Phone</label>
     <b-form-input
-      id="inline-form-input-name"
-      class="mb-2 mr-sm-2 mb-sm-0"
+      class="flow-input"
       placeholder="Phone"
     ></b-form-input>
     
@@ -52,7 +48,6 @@
     ></b-form-textarea>
 
 <!-- Agreement -->
-
     <b-form-checkbox class="mb-2 mr-sm-2 mb-sm-0">Wyrażam zgodę na przetwarzanie moich danych osobowych przez firmę TwoGecko Sp. z o.o., ul. Powstańców Śląskich 20B, 01-381 Warszawa w celu świadczenia przez nią usług związanych z działaniami na rzecz serwisu wszafie.pl i innych projektów.
     </b-form-checkbox>
     
@@ -62,7 +57,7 @@
 </b-form-checkbox>
 
    
-    <b-button id="btn-big" class="btn-contact" variant="primary">Wyślij</b-button>
+    <b-button class="btn-primary">Wyślij</b-button>
   </b-form>
 
 

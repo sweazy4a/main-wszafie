@@ -205,7 +205,7 @@
       max-rows="6"
       ></b-form-textarea>
 
-     <b-button id="btn-comment" variant="primary">Dodaj komentarz</b-button>
+   <button class="btn-primary">Dodaj komentarz</button>
 
       </div>
 
