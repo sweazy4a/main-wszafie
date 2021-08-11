@@ -1,88 +1,76 @@
-
-@import './variables.scss';
-@import './mixins.scss';
-
-
+@import "./variables.scss";
+@import "./mixins.scss";
 
 /* Alert failed */
 
-.alert-failed{
-  background:#FED9D9;
-  padding:16px;
-  border-radius:8px;
-  width:320px;
-  position:relative;
-  margin-top:10px;
-  margin-bottom:10px;
+.alert-failed {
+  background: #fed9d9;
+  padding: 16px;
+  border-radius: 8px;
+  width: 320px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.alert-failed strong{
-    padding-bottom:4px;
-    display:block;
-    color:#FC4545;
+.alert-failed strong {
+  padding-bottom: 4px;
+  display: block;
+  color: #fc4545;
 }
-
 
 .alert-failed p {
-  padding-bottom:0px;
-  margin-bottom:0px;
-  font-size:15px;
-  line-height:19px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 19px;
 }
-
 
 .alert-failed .acontent {
-  font-family:$fontMain;
-  color:$textColor;
-  padding-left:20px;
+  font-family: $fontMain;
+  color: $textColor;
+  padding-left: 20px;
 }
 
-.alert-failed .acontent:before{
-    content: url('https://i.ibb.co/WKsYqdG/Group-882.png');
-    position:absolute;
-    left:15px;
-    top:21px;
+.alert-failed .acontent:before {
+  content: url("https://i.ibb.co/WKsYqdG/Group-882.png");
+  position: absolute;
+  left: 15px;
+  top: 21px;
 }
-
-
-
 
 /* Alert success */
 
-.alert-success{
-    background:#C7F0DD;
-    padding:16px;
-    border-radius:8px;
-    width:320px;
-    position:relative;
+.alert-success {
+  background: #c7f0dd;
+  padding: 16px;
+  border-radius: 8px;
+  width: 320px;
+  position: relative;
 }
 
-.alert-success strong{
-    padding-bottom:4px;
-    display:block;
-    color:#0D654A;
+.alert-success strong {
+  padding-bottom: 4px;
+  display: block;
+  color: #0d654a;
 }
 
 .alert-success p {
-  padding-bottom:0px;
-  margin-bottom:0px;
-  font-size:15px;
-  line-height:19px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 19px;
 }
 
 .alert-success .acontent {
-  font-family:$fontMain;
-  color:$textColor;
-  padding-left:20px;
+  font-family: $fontMain;
+  color: $textColor;
+  padding-left: 20px;
 }
 
-.alert-success .acontent:before{
-    content: url('https://i.ibb.co/0Mbc0jp/Group-881.png');
-    position:absolute;
-    left:15px;
-    top:21px;
+.alert-success .acontent:before {
+  content: url("https://i.ibb.co/0Mbc0jp/Group-881.png");
+  position: absolute;
+  left: 15px;
+  top: 21px;
 }
-
-
-
-

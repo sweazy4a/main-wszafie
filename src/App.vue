@@ -4,7 +4,9 @@
        <HeaderFlow/>
       <section class="flow-container">
         <div class="flow-row">
-          <Elements/>
+          <MobileMenu/>
+          <Hero/>
+          <Products/>
           </div>
         </section>
        <FooterFlow/>
@@ -14,10 +16,11 @@
 
 <script>
 import Vue from 'vue'
-
-import Elements from './components/Elements.vue'
+import Hero from './components/Hero.vue'
+import Products from './components/Products.vue'
 import HeaderFlow from './components/HeaderFlow.vue'
 import FooterFlow from './components/FooterFlow.vue'
+import MobileMenu from './components/MobileMenu.vue'
 /* Bootstrap load */
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -37,7 +40,11 @@ export default {
   components: {
      HeaderFlow,
      FooterFlow,
-     Elements,
+     Hero,
+     Products,
+     MobileMenu
+
+
      
     }
    

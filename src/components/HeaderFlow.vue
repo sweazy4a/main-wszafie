@@ -3,6 +3,33 @@
 <template>
 
 <header id="navigation">
+
+
+   <!-- Mobile navigation -->
+
+   <section class="mobile-nav">
+     <div class="mob-nav-row">
+     
+      <div class="mob-left">
+          <b-navbar-brand class="logo" href="#"><img src="../assets/img/logo.png"/></b-navbar-brand>
+      </div>
+    
+      <div class="mob-right">
+         <b-button id="search-btn"  size="sm" class="search-btn my-2 my-sm-0" type="submit"><img src="../assets/icons/search.svg"/></b-button>
+        <div class="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+   </div>
+   
+   </section>
+
+
+
+
   <!-- Left side -->
 
     <b-navbar toggleable="lg" type="dark" variant="info">
@@ -16,7 +43,7 @@
      <div class="mid-side">
         <b-nav-form>
           <b-form-input size="sm" class="mr-sm-2" placeholder="Jaki produkt sprawi Ci dziś przyjemność?"></b-form-input>
-          <b-button id="search-btn" size="sm" class="my-2 my-sm-0" type="submit"><img src="../assets/icons/search.svg"/></b-button>
+          <b-button id="search-btn" size="sm" class="search-btn my-2 my-sm-0" type="submit"><img src="../assets/icons/search.svg"/></b-button>
         </b-nav-form>
        </div>
 
@@ -54,6 +81,7 @@
 require('@/assets/css/header.scss') 
 export default {
   name: 'HeaderFlow',
+
   
 }
 

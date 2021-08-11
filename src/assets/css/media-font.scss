@@ -1,0 +1,98 @@
+/* General breakpoints */
+
+@media only screen and (max-width: 1650px) {
+  #navigation .navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  .hero-main .slick-slider .hero-content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #app .prod-col-big h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .prod-price {
+    font-size: 18px;
+  }
+
+  .prod-name {
+    font-size: 16px;
+  }
+
+  .prod-desc p {
+    line-height: 21px;
+  }
+
+  html .btn-primary {
+    font-size: 16px;
+  }
+
+  html .btn-second {
+    font-size: 16px;
+  }
+
+  html #app h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+}
+
+@media only screen and (max-width: 1050px) {
+  html #app h1 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  html #app h1 {
+    font-size: 28px;
+  }
+
+  .hero-main .slick-slider .hero-content p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .hero-main .slick-slider .hero-content p br {
+    display: none !important;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    font-size: 16px;
+  }
+
+  #app .prod-col-big h3 {
+    font-size: 24px;
+  }
+
+  .prod-price,
+  .prod-name {
+    font-size: 16px;
+  }
+
+  .prod-cat {
+    font-size: 15px;
+  }
+
+  .promo-line a {
+    font-size: 15px;
+  }
+
+  .flow-container:contains-selector(.hero-main) {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+}

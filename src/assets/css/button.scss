@@ -1,285 +1,294 @@
-@import './variables.scss';
-@import './mixins.scss';
-
+@import "./variables.scss";
+@import "./mixins.scss";
 
 /* Primary */
 
-.btn-primary{
-   background-image: linear-gradient(to right, #5f9edf, #60a2e1, #61a7e3, #62abe4, #64afe6, #65b3e8, #66b8e9, #68bceb, #6ac1ed, #6cc6f0, #6fcbf2, #72d0f4);
-   height:45px;
-   padding:10px 25px;
-   border-radius:5px;
-   color:#ffff;
-   display:flex;
-   align-items:center;
-   border:none;  
-   box-shadow:none!important;
-   text-align:center;
-   justify-content:center;
-   display:flex;
-   font-size:18px;
-
+.btn-primary {
+  background-image: linear-gradient(
+    to right,
+    #5f9edf,
+    #60a2e1,
+    #61a7e3,
+    #62abe4,
+    #64afe6,
+    #65b3e8,
+    #66b8e9,
+    #68bceb,
+    #6ac1ed,
+    #6cc6f0,
+    #6fcbf2,
+    #72d0f4
+  );
+  height: 45px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: none !important;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
 }
 
-
-.btn-primary:hover{
-   background:#5D9ADD;
-   border:none;
+.btn-primary:hover {
+  background: #5d9add;
+  border: none;
 }
 
-.btn-primary:focus{
-    border:2px solid #5D9ADD;
+.btn-primary:focus {
+  border: 2px solid #5d9add;
 }
 
-.btn-primary:active{
-    border:none;
-    background:#4776D0;
+.btn-primary:active {
+  border: none;
+  background: #4776d0;
 }
-
 
 /* Disabled */
-.btn-primary-disabled{
-    background-image: linear-gradient(to right, #6485a8, #6b8cae, #7294b3, #799bb9, #81a3be, #88aac3, #8fb2c8, #96b9cd, #9fc2d3, #a7cad9, #b1d3e0, #badbe6);
-    border:none;
+.btn-primary-disabled {
+  background-image: linear-gradient(
+    to right,
+    #6485a8,
+    #6b8cae,
+    #7294b3,
+    #799bb9,
+    #81a3be,
+    #88aac3,
+    #8fb2c8,
+    #96b9cd,
+    #9fc2d3,
+    #a7cad9,
+    #b1d3e0,
+    #badbe6
+  );
+  border: none;
 }
 
-.btn-primary-disabled:hover{
-  background:#6485a8;
+.btn-primary-disabled:hover {
+  background: #6485a8;
 }
 
-
-.btn-primary-disabled:focus{
-    background:#6485a8;
-    border:2px solid #799bb9!important;
-
-} 
-
-.btn-primary-disabled:active{
-    background-image: linear-gradient(to right, #6485a8, #6b8cae, #7294b3, #799bb9, #81a3be, #88aac3, #8fb2c8, #96b9cd, #9fc2d3, #a7cad9, #b1d3e0, #badbe6);
+.btn-primary-disabled:focus {
+  background: #6485a8;
+  border: 2px solid #799bb9 !important;
 }
 
-
-.btn-second{
-    background:transparent!important;
-    height:40px;
-    padding:10px 25px;
-    border-radius:5px;
-    color:#3176C4;
-    display:flex;
-    align-items:center;
-    border:2px solid #5D9ADD;
-    box-shadow:none!important;
-    text-align:center;
+.btn-primary-disabled:active {
+  background-image: linear-gradient(
+    to right,
+    #6485a8,
+    #6b8cae,
+    #7294b3,
+    #799bb9,
+    #81a3be,
+    #88aac3,
+    #8fb2c8,
+    #96b9cd,
+    #9fc2d3,
+    #a7cad9,
+    #b1d3e0,
+    #badbe6
+  );
 }
 
-.btn-second:hover{
-    border:2px solid #3D72D8;
-    color:#3D72D8;
- }
- 
- .btn-second:focus{
-     border:2px solid #3176C4;
-     color:#3176C4;
- }
- 
- .btn-second:active{
-     color:#2745C3;
-     background:#2745C3;
- }
- 
-
- .btn-second-disabled{
-    color:#37577C;
-    border:2px solid #37577C;
-    opacity:0.5;
+.btn-second {
+  background: transparent !important;
+  height: 40px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #3176c4;
+  display: flex;
+  align-items: center;
+  border: 2px solid #5d9add;
+  box-shadow: none !important;
+  text-align: center;
 }
 
+.btn-second:hover {
+  border: 2px solid #3d72d8;
+  color: #3d72d8;
+}
+
+.btn-second:focus {
+  border: 2px solid #3176c4;
+  color: #3176c4;
+}
+
+.btn-second:active {
+  color: #2745c3;
+  background: #2745c3;
+}
+
+.btn-second-disabled {
+  color: #37577c;
+  border: 2px solid #37577c;
+  opacity: 0.5;
+}
 
 /* Like&Dislike */
 
-
 /* Like */
-.btn-liked{
-    content:url('https://i.ibb.co/CbKXwbM/Group-880.png');
-    display:flex;
-    height:60px;
-    width:60px;
-    border:none!important;
-    position:absolute;
-    top:7px;
-    right:15px;
-    z-index:99;
-    background:transparent;
+.btn-liked {
+  content: url("https://i.ibb.co/CbKXwbM/Group-880.png");
+  display: flex;
+  height: 60px;
+  width: 60px;
+  border: none !important;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  z-index: 9;
+  background: transparent;
 }
-
 
 /* Dislike */
-.btn-unliked{
-    content:url('https://i.ibb.co/NVQJr5R/Group-629.png');
-    display:flex;
-    height:60px;
-    width:60px;
-    border:none!important;
-    position:absolute;
-    top:7px;
-    right:15px;
-    z-index:99;
-    background:transparent;
+.btn-unliked {
+  content: url("https://i.ibb.co/NVQJr5R/Group-629.png");
+  display: flex;
+  height: 60px;
+  width: 60px;
+  border: none !important;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  z-index: 9;
+  background: transparent;
 }
-
-
 
 /* Best seller */
 
-.btn-bestseller{
-    text-transform:uppercase;
-    font-family:$fontMain;
-    color:#5A99E0;
-    font-weight:600;
-    border:2px solid #5D9ADD;
-    padding:4px 9px;
-    border-radius:6px;
-    font-size:14px;
-    background:#ffff;
-    width:110px;
-    position:absolute;
-    top:15px;
-    left:15px;
-    background:#ffff!important;
-    z-index:99;
+.btn-bestseller {
+  text-transform: uppercase;
+  font-family: $fontMain;
+  color: #5a99e0;
+  font-weight: 600;
+  border: 2px solid #5d9add;
+  padding: 4px 9px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #ffff;
+  width: 110px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #ffff !important;
+  z-index: 9;
 }
 
-
-.btn-bestseller:hover{
-    color:#5A99E0!important;
-    border:2px solid #5D9ADD;
+.btn-bestseller:hover {
+  color: #5a99e0 !important;
+  border: 2px solid #5d9add;
 }
-
 
 /* Small icon buttons */
 
-.btn-birth{
-    content:url('https://i.ibb.co/C1KMWfW/birth.png');
-    height:25px;
-    width:25px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
+.btn-birth {
+  content: url("https://i.ibb.co/C1KMWfW/birth.png");
+  height: 25px;
+  width: 25px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
 
-
-.btn-wish{
-    content:url('https://i.ibb.co/VgzV71f/like.png');
-    height:25px;
-    width:25px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
+.btn-wish {
+  content: url("https://i.ibb.co/VgzV71f/like.png");
+  height: 25px;
+  width: 25px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
 
-
-.btn-gps{
-    content:url('https://i.ibb.co/8zXbVDc/gps.png');
-    height:25px;
-    width:25px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
+.btn-gps {
+  content: url("https://i.ibb.co/8zXbVDc/gps.png");
+  height: 25px;
+  width: 25px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
-
 
 /* black */
-.btn-edit{
-    content:url('https://i.ibb.co/VD1B2Qx/edit.png');
-    height:22px;
-    width:22px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
-    
+.btn-edit {
+  content: url("https://i.ibb.co/VD1B2Qx/edit.png");
+  height: 22px;
+  width: 22px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
 
-.btn-view{
-    content:url('https://i.ibb.co/RNJpyX9/eye.png');
-    height:25px;
-    width:25px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
+.btn-view {
+  content: url("https://i.ibb.co/RNJpyX9/eye.png");
+  height: 25px;
+  width: 25px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
 
-
-.btn-lock{
-    content:url('https://i.ibb.co/bgb4DSK/lock.png');
-    height:22px;
-    width:22px;
-    border:none!important;
-    display:flex;
-    object-fit:contain;
-    object-position:center;
+.btn-lock {
+  content: url("https://i.ibb.co/bgb4DSK/lock.png");
+  height: 22px;
+  width: 22px;
+  border: none !important;
+  display: flex;
+  object-fit: contain;
+  object-position: center;
 }
 
-
-
-
-
-
-.contact-right .btn-primary{
-    margin-top:20px;
-    width:100%!important;
-
+.contact-right .btn-primary {
+  margin-top: 20px;
+  width: 100% !important;
 }
 
+.avatar-left .btn-edit {
+  background: #ffff !important;
+  border-radius: 50px !important;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
 
-.avatar-left .btn-edit{
-    background:#ffff!important;
-    border-radius:50px!important;
-    height:40px;
-    width:40px;
-    padding:10px;
-  }
-
-  
-.avatar-left .btn-edit img{
-  width:25px;
-  height:auto;
-  }
-
-
-
-
-  
+.avatar-left .btn-edit img {
+  width: 25px;
+  height: auto;
+}
 
 /* Button remove / reset */
-
-
-.btn-remove{
-    max-width:150px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius: 10px !important;
-    border: 2px solid #FC3830 !important;
-
-    font-family: "Calibri" !important;
-    font-size: 17px !important;
-    color: #FC3830 !important;
-    max-height: 40px;
-    background:#ffff!important;
+#navigation .btn-primary {
+  max-height: 35px;
 }
 
+.btn-remove {
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px !important;
+  border: 2px solid #fc3830 !important;
 
-.btn-change{
-    max-width:150px!important;
-    justify-content:center;
+  font-family: "Calibri" !important;
+  font-size: 17px !important;
+  color: #fc3830 !important;
+  max-height: 40px;
+  background: #ffff !important;
 }
 
+.btn-change {
+  max-width: 150px !important;
+  justify-content: center;
+}
 
-.pop-left .btn-primary{
-    width:100%!important;
+.pop-left .btn-primary {
+  width: 100% !important;
 }

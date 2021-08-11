@@ -1,12 +1,12 @@
 <template>
 
 <section class="product-section">
- <div class="row product-row">
+ <div class="product-row">
   <!-- First col -->   
   <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
    <button class="btn-liked"></button>    
-  <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+  <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -16,20 +16,26 @@
 
   
       <!-- First col -->   
+
+
     <div class="prod-col">
+      <div class="prod-col-content">
        <b-button class="btn-bestseller">Bestseller</b-button>
-       <button class="btn-liked"></button>     <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-2.png"/>
+       <button class="btn-liked"></button>   
+     <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
       <p class="prod-cat">Bryony wada</p>
       </div>
       </div>
+      </div>
      <!-- Third col col -->   
    <div class="prod-col-big">
+     <div class="prod-col-content">
     <div>
     <VueSlickCarousel :arrows="true" :dots="true">
-      <div>
+      <div class="single-slide">
        <img src="../assets/img/home/products/prod-3.png"/>
           <h3 class="prod-title">Sportowe klasyki, które warto mieć w swojej szafie</h3>
 
@@ -51,12 +57,13 @@
 
     </VueSlickCarousel>
   </div>
+  </div>
 </div>
 
 
 <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
-      <button class="btn-liked"></button>      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <button class="btn-liked"></button>      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -69,7 +76,7 @@
       <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
       <button class="btn-liked"></button> 
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -81,7 +88,7 @@
 
       <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
-<button class="btn-liked"></button>      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+<button class="btn-liked"></button>      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -94,7 +101,8 @@
 <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
    <button class="btn-unliked"></button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+    
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -107,7 +115,7 @@
       <div class="prod-col">
        <b-button class="btn-bestseller">Bestseller</b-button>
      <button class="btn-unliked"></button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -118,7 +126,7 @@
       <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
    <button class="btn-unliked"></button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -129,7 +137,7 @@
       <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
    <button class="btn-unliked"></button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>
@@ -141,7 +149,7 @@
       <div class="prod-col">
      <b-button class="btn-bestseller">Bestseller</b-button>
    <button class="btn-unliked"></button>
-      <img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/>
+      <div class="product-image"><img class="prod-img" alt="product-wszafie" src="../assets/img/home/products/prod-1.png"/></div>
       <div class="prod-desc">
       <p class="prod-price">399 zl</p>  
       <p class="prod-name">Adidas mega</p>

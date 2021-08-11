@@ -1,138 +1,160 @@
 @import "./variables.scss";
-@import './button.scss';
-@import './alert.scss';
-@import './input.scss';
+@import "./button.scss";
+@import "./alert.scss";
+@import "./input.scss";
 
-
-
+/* Media query */
+@import "./media-header.scss";
+@import "./homepage/media-home.scss";
+@import "./media-font.scss";
 a {
-    text-decoration: none!important;
-    font-family: $fontMain;
+  text-decoration: none !important;
+  font-family: $fontMain;
 }
 
-h4{
-    text-decoration: none!important;
+a:hover {
+  color: #5d9add !important;
+}
 
+h4 {
+  text-decoration: none !important;
 }
 
 p {
-    font-family: $fontMain;
+  font-family: $fontMain;
 }
 
 .flow-container {
-    padding: 0 10px;
-    // width:1600px;
-    // overflow:hidden;
-    // margin-top:90px;
-    // margin-left:auto;
-    // margin-right:auto;
-    .flow-row {
-        margin: 90px auto 0 auto;
-        width: 100%;
-        max-width: 1550px;
-    }
+  padding: 0 100px;
+  // width:1600px;
+  // overflow:hidden;
+  // margin-top:90px;
+  // margin-left:auto;
+  // margin-right:auto;
+  .flow-row {
+    margin: 90px auto 0 auto;
+    width: 100%;
+    max-width: 1550px;
+  }
 }
-
 
 /* Media container */
 
 @media only screen and (max-width: 1650px) {
-    /*   
+  /*   
 .flow-container{
     width:100%;
     padding-left:100px;
     padding-right:100px;
 }
 */
-    .sr-only {
-        margin-bottom: 20px!important;
-        display: block!important;
-    }
-    #hero .slick-slider .hero-content {
-        max-width: 45%;
-    }
+  .sr-only {
+    margin-bottom: 20px !important;
+    display: block !important;
+  }
+  #hero .slick-slider .hero-content {
+    max-width: 45%;
+  }
 }
 
 @media only screen and (max-width: 1450px) {
-    .right-side {
-        width: 55%;
-    }
+  .right-side {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1360px) {
-    .right-side {
-        width: 70%;
-    }
-    .mid-side {
-        max-width: 25%;
-        margin-right: 0px;
-    }
+  .right-side {
+    width: 70%;
+  }
+  .mid-side {
+    max-width: 25%;
+    margin-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 1360px) {
-    .prod-col {
-        width: 32%!important;
-        max-width: 32%!important;
-    }
-    .promo-row {
-        max-width: 65%;
-    }
-    .footer-content {
-        max-width: 65%;
-    }
+  .promo-row {
+    max-width: 65%;
+  }
+  .footer-content {
+    max-width: 65%;
+  }
 }
 
-.row>* {
-    padding: 0px!important;
+@media only screen and (max-width: 1360px) {
+  .flow-container {
+    padding: 0 10px;
+  }
+
+  .flow-container .flow-row {
+    margin: 55px auto 0 auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #app .btn-primary {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    max-height: 40px;
+  }
+
+  #app .btn-second {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    max-height: 40px;
+  }
 }
 
 * {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 #app .flow-container form input {
-    padding: 10px 20px;
-    margin-bottom: 20px!important;
-    display: flex;
-    border-radius: 10px!important;
-    border: 2px solid #BABABA!important;
+  padding: 10px 20px;
+  margin-bottom: 20px !important;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #bababa !important;
 }
 
 #modal-3 input {
-    padding: 10px 20px;
-    margin-bottom: 20px!important;
-    display: flex;
-    border-radius: 10px!important;
-    border: 2px solid #BABABA!important;
+  padding: 10px 20px;
+  margin-bottom: 20px !important;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #bababa !important;
 }
 
 #app .flow-container form textarea {
-    border: 2px solid #BABABA!important;
-    border-radius: 10px!important;
+  border: 2px solid #bababa !important;
+  border-radius: 10px !important;
 }
 
 .b-form-datepicker {
-    margin-bottom: 20px!important;
-    display: flex;
-    border-radius: 10px!important;
-    border: 2px solid #BABABA!important;
+  margin-bottom: 20px !important;
+  display: flex;
+  border-radius: 10px !important;
+  border: 2px solid #bababa !important;
 }
 
 .b-form-datepicker label {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 /*
 .pop-left .form-control {
@@ -144,40 +166,33 @@ body {
 }
 */
 .sr-only {
-    padding-bottom: 5px!important;
+  padding-bottom: 5px !important;
 }
 
 #app .flow-container form textarea {
-    height: 160px!important;
-    overflow: hidden!important;
+  height: 160px !important;
+  overflow: hidden !important;
 }
 
 #app form label {
-    color: #5A5A5A;
-    margin-bottom:4px!important;
+  color: #5a5a5a;
+  margin-bottom: 4px !important;
 }
-
 
 /* Checkboxes */
 
-
 /* Hide the browser's default checkbox */
-
 
 /* Create a custom checkbox */
 
-
 /* Focus Hover Active Disabled*/
-
 
 /* Focus */
 
 .custom-control-input {
-    background-color: green!important
+  background-color: green !important;
 }
 
-
 /* Active */
-
 
 /* Disabled */

@@ -1,73 +1,78 @@
 @import "../variables.scss";
 @import "../mixins.scss";
-#hero .slick-slider .hero-content .hero-btn {
-    margin-top: 20px;
-    @include the-button;
-    background: $buttonBG!important;
+
+.hero-main {
+  padding: 0px 25px;
 }
 
-#hero .slick-dots {
-    display: none!important;
+.hero-main .slick-slider .hero-content .hero-btn {
+  margin-top: 20px;
+  @include the-button;
+  background: $buttonBG !important;
 }
 
-#hero .slick-slider img {
-    @include slider-img;
-    object-fit: contain;
+.hero-main .slick-dots {
+  display: none !important;
 }
 
-#hero .slick-slider div {
-    position: relative;
-    height: 700px;
-    overflow: hidden;
+.hero-main .slick-slider img {
+  @include slider-img;
+  object-fit: cover;
 }
 
-#hero .slick-slider .hero-content {
-    position: absolute;
-    top: 25%;
-    max-width: 25%;
-    left: 150px;
+.hero-main .slick-slider div {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
 }
 
-#hero .slick-slider h1 {
-    padding-bottom: 20px;
-    font-size: 45px;
-    font-weight: bold;
-    color: $textColor;
+.hero-main .slick-slider .hero-content {
+  position: absolute;
+  top: 25%;
+  max-width: 45%;
+  left: 150px;
 }
 
-#hero .slick-slider .hero-content p {
-    font-size: 18px;
-    color: $textColor;
-    line-height: 25px;
+.hero-main .slick-slider h1 {
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  color: $textColor;
 }
 
-#hero .slick-slider .slick-prev {
-    left: 50px;
-    position: absolute;
-    z-index: 9;
+.hero-main .slick-slider .hero-content p {
+  font-size: 18px;
+  color: $textColor;
+  line-height: 25px;
 }
 
-#hero .slick-slider .slick-prev:before {
-    content: " "!important;
-    color: #ffff!important;
-    left: 0px;
-    position: absolute;
-    z-index: 9;
-    background-image: url('https://i.ibb.co/y0RScX4/1919.png');
-    height: 50px;
-    width: 50px;
-    background-size: contain;
+.hero-main .slick-slider .slick-prev {
+  left: 50px;
+  position: absolute;
+  z-index: 9;
 }
 
-#hero .slick-slider .slick-next:before {
-    background-image: url('https://i.ibb.co/x6XF7Tc/1918.png');
-    color: #ffff!important;
-    right: 50px;
-    position: absolute;
-    z-index: 99999;
-    top: 25%;
-    background-size: cover;
-    content: " ";
-    height: 50px;
-    width: 50px;
+.hero-main .slick-slider .slick-prev:before {
+  content: " " !important;
+  color: #ffff !important;
+  left: 0px;
+  position: absolute;
+  z-index: 9;
+  background-image: url("https://i.ibb.co/y0RScX4/1919.png");
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+}
+
+.hero-main .slick-slider .slick-next:before {
+  background-image: url("https://i.ibb.co/x6XF7Tc/1918.png");
+  color: #ffff !important;
+  right: 50px;
+  position: absolute;
+  z-index: 99999;
+  top: 25%;
+  background-size: cover;
+  content: " ";
+  height: 50px;
+  width: 50px;
 }

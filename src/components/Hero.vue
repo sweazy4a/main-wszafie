@@ -1,5 +1,5 @@
 <template>
-<section id="hero">
+<section class="hero-main">
   <div>
     <VueSlickCarousel :arrows="true" :dots="true">
       <div>

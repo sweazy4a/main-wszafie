@@ -1,0 +1,171 @@
+/* General breakpoints */
+
+@media only screen and (max-width: 1650px) {
+}
+
+@media only screen and (max-width: 1250px) {
+  .navbar-expand-lg .navbar-collapse {
+    width: 80%;
+  }
+
+  .left-side {
+    width: 15%;
+  }
+
+  .mid-side {
+    max-width: 35%;
+  }
+
+  #navigation .navbar-dark .navbar-nav .nav-link {
+    min-width: auto;
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  // .mob-menu{
+  //     display:block;
+  // }
+
+  .navbar {
+    display: none;
+  }
+
+  .mobile-nav {
+    height: 55px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-main .slick-slider div {
+    height: auto;
+  }
+
+  .promo-row {
+    flex-wrap: wrap;
+  }
+
+  .footer-content .foot-left {
+    display: none;
+  }
+  .elementz-v {
+    display: none;
+  }
+
+  .foot-mid {
+    width: 100%;
+    text-align: center;
+  }
+
+  .foot-right {
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .footer-content {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  html .copyright {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  html .copy-right {
+    width: 100%;
+    order: 1;
+  }
+
+  html .copy-left {
+    padding-top: 10px;
+    width: 100%;
+    order: 2;
+    text-align: center;
+  }
+
+  html .product-section {
+    padding-bottom: 50px;
+  }
+
+  html .footer-content {
+    padding-top: 25px;
+  }
+
+  html .promo-row {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  html .promo-line {
+    display: flex;
+    align-items: center;
+  }
+
+  html .promo-line:before {
+    content: " ";
+    background-image: url("https://i.ibb.co/NVZmLTj/Group-648.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    background-position: center;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .prod-title {
+    position: absolute;
+    left: 10px;
+    line-height: 30px;
+  }
+
+  .btn-bestseller {
+    display: none;
+  }
+
+  #navigation {
+    width: 100%;
+  }
+
+  .mob-left .logo img {
+    height: 25px;
+  }
+
+  .mob-right {
+    min-width: auto;
+    width: auto;
+  }
+
+  .hero-main .slick-slider img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 80% 0%;
+    object-fit: cover;
+  }
+
+  .promo-line a img {
+    padding-right: 5px;
+  }
+
+  .promo-item {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+}

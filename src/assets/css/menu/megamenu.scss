@@ -1,5 +1,11 @@
-     
+@import './media-menu.scss';
+
+
+
 /* General items */
+
+
+
 
 .mega-menu-container{
     padding: 0 100px;
@@ -54,6 +60,7 @@
   position:absolute;
   top:10px;
   left:20px;
+  color:#ffff;
 }
 
 .menu-col .menu-img img{
@@ -226,8 +233,21 @@
 }
 
 .sub-item-row:hover .plus-submenu{
-
   display:block;
-
-
 }
+
+
+
+
+/* Remake changes adding fixing new */
+
+.mega-menu-section{
+ position:fixed;
+ width:100%;
+ background:#ffff;
+ z-index:88;
+ top:0%;
+ left:0;
+}
+
+

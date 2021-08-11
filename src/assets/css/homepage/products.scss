@@ -1,184 +1,203 @@
 @import "../variables.scss";
 @import "../mixins.scss";
+
 .product-section {
-    padding-top: 50px;
-    padding-bottom: 180px;
+  padding-top: 50px;
+  padding-bottom: 180px;
 }
 
 .prod-col {
-    @include simple-prod;
-    position: relative;
-    padding: 0px!important;
+  @include simple-prod;
+}
+
+.prod-col-content {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
 }
 
 .prod-col img {
-    @include product-img;
-    position: relative;
+  @include product-img;
+  position: relative;
 }
 
 .product-row {
-    @include def-row;
+  @include def-row;
 }
 
 .prod-col-big {
-    @include big-prod;
-    position: relative;
-    overflow: hidden;
+  @include big-prod;
 }
 
 .prod-col-big img {
-    @include product-img;
-    border-radius: 0px!important;
-    border: 0px solid transparent!important;
-    width: 100%!important;
+  @include product-img;
+  border-radius: 0px !important;
+  border: 0px solid transparent !important;
+  width: 100% !important;
 }
 
 .prod-desc {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .prod-price {
-    font-family: $fontMain;
-    font-weight: bold;
-    margin-bottom: 0px!important;
-    font-size: 20px;
+  font-family: $fontMain;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  font-size: 20px;
 }
 
 .prod-name {
-    font-family: $fontMain;
-    font-weight: bold;
-    margin-bottom: 0px!important;
-    font-size: 18px;
+  font-family: $fontMain;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  font-size: 18px;
 }
 
 .prod-cat {
-    color: #808080;
-    font-size: 18px;
+  color: #808080;
+  font-size: 18px;
 }
 
 .prod-col-big .prod-title {
-    left: 50px;
-    position: absolute;
-    bottom: 110px;
-    color: #ffff;
-    font-weight: bold;
-    max-width: 60%;
-    text-shadow: -1px 0px 7px rgba(24, 114, 234, 0.77);
-    font-size: 32px;
+  left: 50px;
+  position: absolute;
+  bottom: 110px;
+  color: #ffff;
+  font-weight: bold;
+  max-width: 60%;
+  text-shadow: -1px 0px 7px rgba(24, 114, 234, 0.77);
+  font-size: 32px;
 }
 
 .prod-col-big .prod-desc {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  max-width: 98%;
 }
 
 .prod-col-big div {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .prod-col-big .slick-dots {
-    display: flex!important;
-    justify-content: flex-start;
-    bottom: 30px;
-    left: 0px;
+  display: flex !important;
+  justify-content: flex-start;
+  bottom: 30px;
+  left: 0px;
 }
 
 .prod-col-big .slick-dots li button {
-    width: 28px;
-    height: 28px!important;
-    background: #ADCCEF;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px!important;
-    padding-top: 15px;
+  width: 28px;
+  height: 28px !important;
+  background: #adccef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px !important;
+  padding-top: 15px;
 }
 
 .prod-col-big .slick-dots li button:before {
-    font-size: 25px;
-    position: relative!important;
+  font-size: 25px;
+  position: relative !important;
 }
 
 .slick-dots li button:before {
-    color: #F0F4FA!important;
-    opacity: 10!important;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+  color: #f0f4fa !important;
+  opacity: 10 !important;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
-
-
 #app .prod-col-big .btn-more {
-    background: transparent!important;
-    margin-top: 0px!important;
-    width: 320px;
+  background: transparent !important;
+  margin-top: 0px !important;
+  width: 320px;
 }
 
 #app .slick-active button:before {
-    color: #5A99E0!important;
+  color: #5a99e0 !important;
 }
 
 .btn-more {
-    margin-top: 15px;
-    @include btn-more;
-    margin-right: 5px;
+  margin-top: 15px;
+  @include btn-more;
+  margin-right: 5px;
 }
 
 .prod-tag {
-    @include tag-btn;
+  @include tag-btn;
 }
 
 .prod-like {
-    @include like-btn;
+  @include like-btn;
 }
 
 .prod-like img {
-    width: 80px!important;
-    height: auto;
+  width: 80px !important;
+  height: auto;
 }
 
 #app .prod-col img {
-    border: none!important;
+  border: none !important;
+}
+
+.product-image {
+  width: 100%;
+  height: 363px;
+}
+
+.product-image .prod-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .prod-unlike {
-    @include like-btn;
+  @include like-btn;
 }
 
 .prod-unlike img {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
 
 .after-products {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
 }
 
 .after-products .btn-more {
-    margin: 0 auto!important;
+  margin: 0 auto !important;
 }
 
 .prod-col-big .slick-dots li {
-    transform: scale(0.7);
-    margin-right: 13px!important;
+  transform: scale(0.7);
+  margin-right: 13px !important;
 }
 
 #app .prod-col-big h3 {
-    font-size: 32px;
-    line-height: 40px;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 #app .prod-col-big h3 {
-    max-width: 65%;
-    bottom: 85px;
+  max-width: 65%;
+  bottom: 85px;
 }
 
 .prod-desc .prod-price {
-    line-height: 23px;
+  line-height: 23px;
+}
+
+.prod-img {
+  width: 100%;
+  height: 100%;
 }
